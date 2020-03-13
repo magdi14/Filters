@@ -6,12 +6,10 @@ You need to have C installed on your machine, and GCC Compiler.
 ## Usage
 First you need to compile the program, so head to the path that you saved the project in and type
 ```bash
-gcc filter.c
+gcc filter.c [-filter] [PathOfInputImage].bmp [out].bmp
 ```
-then try run the output file with 
-```bash
-./filter [-filter] [PathOfInputImage].bmp [out].bmp
-```
+then you will notice an output file with the name you specified [out].bmp has been created in the folder, it's the image after the filter applied to it.
+</br>
 Here's the type of filters provided: </br>
 "b" => for the blur</br>
 "g" => for the grayscale.</br>
