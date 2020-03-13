@@ -12,8 +12,8 @@ then try run the output file with
 ```bash
 ./filter [-filter] [PathOfInputImage].bmp [out].bmp
 ```
-Here's the type of filters provided: 
-"b" => for the blur
-"g" => for the grayscale.
-"r" => for reflect (mirror).
-"s" => for sepia.
+Here's the type of filters provided: </br>
+"b" => for the blur</br>
+"g" => for the grayscale.</br>
+"r" => for reflect (mirror).</br>
+"s" => for sepia.</br>
